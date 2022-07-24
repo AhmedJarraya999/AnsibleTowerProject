@@ -1,5 +1,5 @@
 ---
-- hosts: linux_hosts
+- hosts: linux_hostsAAA
   become: yes
   tasks:
     - name: Update apt cache and make sure Vim is installed
